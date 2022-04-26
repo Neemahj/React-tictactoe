@@ -40,6 +40,7 @@ function App() {
           container[line[1]] === container[line[2]]
         ){
           alert(`Player ${container[line[0]]} won!`)
+          handleReset();
         }
       })
     }
